@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html ng-app="firstApp">
+<head>
+ <script src="angular.min.js"></script>
+ <script src="app.js"></script>
+</head>
+<body ng-controller="mainController">
+	<h1>Upcoming Movies</h1>
+	<ul>
+	    <li ng-repeat="movie in movies">{{movie.title}}</li>
+	</ul>
+</body>
+</html>
