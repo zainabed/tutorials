@@ -1,0 +1,61 @@
+/* 
+    Document   : main
+    Created on : Sep 24, 2013, 4:54:49 PM
+    Author     : Zainul.Shaikh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+h3,h1,h2{
+    margin: 0;
+    padding: 0;
+}
+.w100_p{
+    width: 100%;
+    position: relative;
+}
+.w20_p{
+    width: 19.8%;
+    position: relative;
+}
+.w60_p{
+    width: 59.8%;
+    position: relative;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.red{
+    background-color: #A44;
+}
+.blue{
+    background-color: #44A;
+}
+.green{
+    background-color: #4A4;
+}
+.gray{
+    background-color: #aaa;
+}
+.head{
+    background-color: #333333;
+    box-shadow: 1px 1px 1px 1px #333333;
+    color: #FFFFFF;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.center{
+    padding: 20px;
+}

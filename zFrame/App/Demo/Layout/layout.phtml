@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <?php $this->asset->loadCss(); ?>
+        <?php $this->asset->loadJavascript(); ?>
+    </head>
+    <body>
+        <div class="head w100_p gray">
+            
+            <?php $this->block->include_block('Demo/Index/Index', 'Demo/View/Block/Block.phtml'); ?>
+        </div>
+        <div class="w20_p left red">
+            <?php $this->view->includeSlot('test'); ?>
+            <?php $this->block->renderDefault('left'); ?>
+        </div>
+        <div class="w60_p left green">
+            <?php echo $this->content; ?>
+        </div>
+        <div class="w20_p right blue">
+            <?php $this->block->renderDefault('right'); ?>
+        </div>
+        
+    </body>
+
+</html>

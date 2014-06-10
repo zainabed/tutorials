@@ -1,0 +1,17 @@
+## YAML Template.
+action:
+  demo:
+    demo_index:
+      url: 'demo/index'
+      path: { 'module' : 'demo', 'action' : 'index'}
+    demo_hello:
+      url: 'demo/hello'
+      path: { 'module' : 'demo', 'action' : 'hello'}
+block:
+  demo:
+    demo_index:
+      url: '_demo/index'
+      path: { 'controller' : 'ajax', 'action' : 'index'}
+    demo_hello:
+      url: '_demo/index'
+      path: { 'controller' : 'ajax', 'action' : 'hello'}

@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <?php $this->view_helper->asset->loadCss(); ?>
+        <?php $this->view_helper->asset->loadJavascript(); ?>
+    </head>
+    <body>
+        <div class="head w100_p gray">
+            
+            <?php $this->view_helper->getBlockHelper()->include_block('Demo/Index/Index', 'Demo/View/Block/Block.phtml'); ?>
+        </div>
+        <div class="w30_p left red">
+            <?php $this->view_helper->getView()->includeSlot('test'); ?>
+            <?php $this->view_helper->getBlockHelper()->renderDefault('left'); ?>
+        </div>
+        <div class="w70_p left green">
+            <?php echo $this->content; ?>
+        </div>
+        
+    </body>
+
+</html>

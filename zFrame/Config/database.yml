@@ -1,0 +1,9 @@
+## YAML Template.
+---
+default:
+  database: 'mysql'
+  host: 'localhost'
+  db_name: 'test_db'
+  username: 'root'
+  password: ''
+  

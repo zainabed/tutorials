@@ -1,0 +1,19 @@
+## YAML Template.
+config:
+  head: true
+  left: true
+  right: true
+  footer: true
+  
+default:
+  blocks:
+    left:
+      left_block:
+        block: "Demo/Index/left"
+        template: "Demo/View/Block/block.phtml"
+      
+    right:
+      right_block:
+        block: "Demo/Index/right"
+        template: "Demo/View/Block/block.phtml"
+        

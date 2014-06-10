@@ -1,0 +1,15 @@
+## YAML Template.
+default:
+  theme: default 
+  css : 
+    default: [ main.css, view.css, local.css ]
+    small: [ main.css, view.css, local.css ]
+    medium: [ main.css, view.css, local.css ]
+  javascript: 
+    default: [ jquery-1.7.2.min.js ]
+    small: [ jquery-1.7.2.min.js ]
+    medium: [ jquery-1.7.2.min.js ]
+  #layout: /Demo/Layout/{device}layout.phtml
+  layout:
+    controller: Demo
+    name: layout
