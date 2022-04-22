@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "RestTemplate",
+      "description": "Project to demonstrate workflow of RestTemplate"
+    },
+    {
+      "id": 2,
+      "name": "Blogger App",
+      "description": "Blog application to publish blogpost"
+    },
+    {
+      "id": 3,
+      "name": "Blogger App",
+      "description": "Blog application to publish blogpost"
+    },
+    {
+      "id": 4,
+      "name": "Blogger App",
+      "description": "Blog application to publish blogpost"
+    },
+    {
+      "id": 5,
+      "name": "Blog post app",
+      "description": "Blog application to publish blogpost"
+    }
+  ]
+}
