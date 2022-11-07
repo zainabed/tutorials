@@ -1,2 +1,2 @@
-com/zainabed/tutorial/gateway/GatewayApplication.class
-com/zainabed/tutorial/gateway/route/RouteConfiguration.class
+com/zainabed/gateway/GatewayApplication.class
+com/zainabed/gateway/route/RouteConfiguration.class
