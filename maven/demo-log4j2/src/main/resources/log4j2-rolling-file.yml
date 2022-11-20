@@ -1,0 +1,45 @@
+Configutation:
+  status: warn
+
+  Properties:
+    Property:
+      - name: LOG_DIR
+        value: logs
+      - name: LOG_FILE_NAME
+        value: logging
+  Appenders:
+    Console:
+      name: CONSOLE
+      target: SYSTEM_OUT
+      PatternLayout:
+        Pattern: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    RollingFile:
+      - name: APPLICATION
+        fileName: "${LOG_DIR}/${LOG_FILE_NAME}.log"
+        filePattern: "${LOG_DIR}/${LOG_FILE_NAME}-%d{dd-MM-yyyy}.log"
+        PatternLayout:
+          Pattern: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+        policies:
+          TimeBasedTriggeringPolicy:
+            interval: 1
+            modulate: true
+
+  Loggers:
+    Root:
+      level: info
+      AppenderRef:
+        - ref: CONSOLE
+        - ref: APPLICATION
+    Logger:
+      - name: com.zainabed
+        additivity: false
+        level: info
+        AppenderRef:
+          - ref: CONSOLE
+          - ref: APPLICATION
+      - name: com.myco.myapp.Bar
+        additivity: false
+        level: debug
+        AppenderRef:
+          - ref: CONSOLE
+          - ref: APPLICATION

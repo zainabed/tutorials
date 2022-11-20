@@ -9,7 +9,7 @@
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
-        <RollingFile name="DailyFileLog"
+        <RollingFile name="dailyFileLog"
                      fileName="${LOG_DIR}/${LOG_FILE_NAME}.log"
                      filePattern="${LOG_DIR}/${LOG_FILE_NAME}-%d{dd-MM-yyyy}.log">
             <Policies>
@@ -19,7 +19,7 @@
     </Appenders>
     <Loggers>
         <Logger name="com.zainabed" level="INFO">
-            <AppenderRef ref="DailyFileLog"/>
+            <AppenderRef ref="dailyFileLog"/>
         </Logger>
         <Root level="INFO">
             <AppenderRef ref="Console"/>

@@ -1,13 +1,16 @@
-04:37:04.009 [main] INFO  com.zainabed.tutorial.demolog4j2.DemoLog4j2Application - Application starts
-04:37:04.673 [main] INFO  com.zainabed.tutorial.demolog4j2.DemoLog4j2Application - Starting DemoLog4j2Application using Java 11.0.11 on fedora with PID 15266 (/home/zainul/Tutorials/tutorials/maven/demo-log4j2/target/classes started by zainul in /home/zainul/Tutorials/tutorials/maven/demo-log4j2)
-04:37:04.679 [main] INFO  com.zainabed.tutorial.demolog4j2.DemoLog4j2Application - No active profile set, falling back to 1 default profile: "default"
-04:37:06.134 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-04:37:06.195 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-04:37:06.197 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-04:37:06.198 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
-04:37:06.478 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-04:37:06.479 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1719 ms
-04:37:07.396 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-04:37:07.417 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-04:37:07.430 [main] INFO  com.zainabed.tutorial.demolog4j2.DemoLog4j2Application - Started DemoLog4j2Application in 3.278 seconds (JVM running for 4.868)
-04:37:07.434 [main] INFO  com.zainabed.tutorial.demolog4j2.DemoLog4j2Application - Application ends
+04:39:29.917 [main] INFO  com.zainabed.tutorial.demolog4j2.DemoLog4j2Application - Starting DemoLog4j2Application using Java 11.0.11 on fedora with PID 7034 (/home/zainul/Tutorials/tutorials/maven/demo-log4j2/target/classes started by zainul in /home/zainul/Tutorials/tutorials/maven/demo-log4j2)
+04:39:29.968 [main] INFO  com.zainabed.tutorial.demolog4j2.DemoLog4j2Application - No active profile set, falling back to 1 default profile: "default"
+04:39:33.409 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+04:39:33.467 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04:39:33.471 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+04:39:33.473 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+04:39:33.929 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04:39:33.930 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3760 ms
+04:39:35.400 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04:39:35.456 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+04:39:35.499 [main] INFO  com.zainabed.tutorial.demolog4j2.DemoLog4j2Application - Started DemoLog4j2Application in 7.623 seconds (JVM running for 13.598)
+04:39:35.510 [main] INFO  com.zainabed.tutorial.demolog4j2.DemoLog4j2Application - Application ends
+Starting DemoLog4j2Application using Java 11.0.11 on fedora with PID 7175 (/home/zainul/Tutorials/tutorials/maven/demo-log4j2/target/classes started by zainul in /home/zainul/Tutorials/tutorials/maven/demo-log4j2)
+No active profile set, falling back to 1 default profile: "default"
+Started DemoLog4j2Application in 8.793 seconds (JVM running for 15.324)
+Application ends
