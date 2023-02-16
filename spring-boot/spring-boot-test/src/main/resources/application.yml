@@ -1,0 +1,13 @@
+app:
+  settings:
+    services:
+      - name: HTTP_SERVICE
+        type: REST
+        enable: true
+      - name: JMS_SERVICE
+        type: MESSAGE
+        enable: false
+    file:
+      name: archive
+      path: /archive
+
